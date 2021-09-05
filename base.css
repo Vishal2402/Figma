@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.base{
+    height: 30vh;
+    width: 100%;
+    background-color: #EDF9F9;
+    display: flex;
+}
+.leftbase{
+    width: 50%;
+    height: 100%;
+    text-align: flex-start;
+    align-items: center;
+    padding: 2em 3em;
+    /* background-color: rosybrown; */
+    padding-left: 20%;
+    font-family: Rubik;
+
+}
+.leftbase p{
+    margin-left: 3rem;
+}
+.leftbase button{
+    margin-left: 3rem;
+    outline: none;
+    border: none;
+    background: #FE728B;
+    color: white;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    min-width: 3vw;
+    height: auto;
+    padding: 5px ;
+}
+.base-left-header{
+    margin: 0.5em;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #009595;
+}
+.base-left-content{
+    margin: 0.5em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #FE728B;
+}
+.rightbase{
+    width: 50%;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    /* background-color: red; */
+    padding-top: 3em;
+    padding-left: 0;
+}
+.rightbase p{
+    max-width: 60%;
+    text-align: justify;
+    font-family: Rubik;
+}

@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    width: 100vw;
+    height: 30%;
+    background: #4F4F4F;
+    display: flex;
+    color: white;
+}
+.leftcontact{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* overflow: scroll; */
+    flex-direction: column;
+    font-family: rubik;
+    margin:auto 4em;
+    justify-content: space-evenly;    
+    font-size: 0.8em;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 5rem;
+    height: 1rem;
+    margin: 0.5em 0;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus ~ .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked ~ .slider:before {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(26px);
+    transform: translateX(400%);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 8px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .rightcontact{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin:0 4em;
+    justify-content: space-between;    
+    align-items: center;
+    /* background-color: burlywood; */
+}
+  .rightcontact .right-contact-optns{
+    /* background-color: blue; */
+    width: 30%;
+  }
+  .rightcontact .right-contact-optns li{
+    font-family: rubik;
+
+    font-size: 0.8em;
+    margin: 0.2em 1em;
+  }
+  .rightcontact .right-contact-ways{
+    width: 70%;
+  }
+  .rightcontact .right-contact-ways p{
+    font-family: rubik;
+    font-size: 0.8em;
+    margin: 1em 1em;
+  }

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mapbox{
+    margin: 1em;
+    height: 70vh;
+    width: auto;
+    display: block;
+}
+.mapbox img{
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    box-sizing: cover;
+    display: block;
+}

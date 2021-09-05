@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainsidebar{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: auto;
+    overflow: hidden;
+    transform: translateX(-2em);
+}
+#explorecontent{
+    width: 100%;
+    height: auto;
+}
+#explorecontent:active ~ .mainsidebar{
+    overflow: unset;
+    transition: 0.5s all ease-in-out;
+}
+.sidebar-header{
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: olive; */
+    width: 100%;
+    height: 2em;
+}
+.button-rail{
+    justify-content: center;
+    align-items: center;
+    /* background-color: skyblue; */
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.dollar{
+    padding: 0.5em;
+    align-items: center;
+    width: auto;
+    height: fit-content;
+    /* padding: 1; */
+    justify-content: center;
+    background-color: white;
+    border-color: silver  ;
+    text-decoration: none;
+    outline-color: white;
+}
+.vl{
+    border-left: 3px solid silver;
+    align-items: center;
+    height: 100%;
+    /* transform: translateY(0.5em); */
+}
+.btnf{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.btnl{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.optionssection{
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.options{
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+}
+.option{
+    margin: 10px;
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+}
+.options label{
+    padding-left: 1em;
+    text-align: justify;
+}
+#more{
+    display: none;
+}
+#show{
+    margin-left: 4em;
+    text-align: left;
+    background: none;
+    border: none;
+    outline: none ;
+    float: left;
+    cursor: pointer;
+}
